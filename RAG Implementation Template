@@ -96,7 +96,7 @@ Example expectation of transformation:
 
 Another example:
 
-* If the original project includes hardcoded organization references, sample logos, or example datasets tied to non-HighLevel entities, all such items must be removed and replaced with HighLevel-compatible placeholders or assets.
+* If the original project includes hardcoded organization references, sample logos, or example datasets tied to non-[ORG Name] entities, all such items must be removed and replaced with ORG-compatible placeholders or assets.
 
 ---
 
@@ -127,7 +127,7 @@ Return the response in the following structure:
 
    * What must be generalized
    * What must be removed
-   * What must be replaced with HighLevel
+   * What must be replaced with ORG
    * What reusable abstractions must be introduced
 
 3. **Target Architecture**
@@ -155,7 +155,7 @@ Return the response in the following structure:
 
    * All items to remove
    * All items to rename
-   * All visual/content changes required to align with HighLevel
+   * All visual/content changes required to align with ORG
 
 7. **Security and Configuration Rules**
 
